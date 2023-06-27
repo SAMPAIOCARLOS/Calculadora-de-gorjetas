@@ -19,10 +19,10 @@ function calculatetip(event) {
      let total = (bill * serviceQual) / numOfpeople;
      total = total.toFixed(2);
      document.getElementById('tip').innerHTML = total;
-     document.getElementById('totaltips').style.display = "block"
+     document.getElementById('totalTips').style.display = "block"
 }
 
 document.getElementById("totalTips").style.display = "none"
 document.getElementById("each").style.display = "none"
 
-document.getElementById("tipsForm").addEventListener('submit', calculatetip);
+document.getElementById("tipsForm").addEventListener('submit', calculatetip);
