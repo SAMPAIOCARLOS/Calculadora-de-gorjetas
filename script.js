@@ -1,8 +1,8 @@
 function calculatetip(event) {
-     event.prevenDefault();
-     let bill = document.getElementById('bill').Value;
-     let serviceQual = document.getElementById('serviceQual').Value;
-     let numOfpeople = document.getElementById('numOfpeople').Value;
+     event.preventDefault();
+     let bill = document.getElementById('bill').value;
+     let serviceQual = document.getElementById('serviceQual').value;
+     let numOfpeople = document.getElementById('numOfpeople').value;
 
      if(bill == '' | serviceQual == 0){
           alert("por favor, preencha os valores")
